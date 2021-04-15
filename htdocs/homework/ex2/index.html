@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amir Abo Tbk</title>
+		<style>
+		@import url("basic.css");
+		</style>
+	</head>
+<body dir='rtl'> <!-- right to left -->
+	<header>
+			<h1 class='title'> עבודת בית</h1>
+			<h2 class='title h2_title'> אמיר אבו טבק</h2>
+
+	
+	</header>
+			<hr>
+			<br><br>
+
+	<main>
+			<section id='sect'>
+			<h2 class='title'> טופס הרשמה</h2>
+			<form method="POST" action="mailto:amirabotbk@gmail.com">
+			<label for="name"> שם שלך : &nbsp </label>
+			<input type="text" required id="text" name="name"> <br><br>
+			
+			<label for="number"> תעודת זיהות : &nbsp </label>
+			<input type="text" required id="text" name="id" maxlength="9"> <br><br>
+
+			<label for="select_abotbk"> מין : &nbsp </label>
+			    <select required id="select_abotbk" name="gender">
+				<option value="זכר">זכר</option>
+				<option value="נקבה">נקבה</option>
+				<option value="אחר">אחר</option>
+				</select>
+			<br><br>
+			<label for="email"> דואר אלקטרוני : &nbsp </label>
+			<input type="email" id="email" name="email" required> <br><br>
+			
+			<label for="dob"> תאריך לידה : &nbsp </label>
+			<input type="date" id="datetime" name="dob" required> <br><br>
+
+			<label for="name"> הודעה :<BR> </label>
+			      <textarea required id="text" name="subject" placeholder="פניתך.." style="height:200px"></textarea>
+				<br><br>
+
+
+			<input type="submit" class="button submit" value="Submit"> &nbsp
+			<input type="reset" class="button reset"  value="Reset">
+
+
+			</form>
+			
+			</section>
+
+
+	</main>
+
+
+
+
+		<br><br>
+			<br><br>
+			<br><br>
+			<hr>
+			<br><br>
+			<br><br>
+
+
+<footer dir='rtl'>
+<div align='center'> 
+כל הזכויות שמורות למכללת INT <BR>
+&copy 2021
+</div>
+</footer>
+</body>
+</html>

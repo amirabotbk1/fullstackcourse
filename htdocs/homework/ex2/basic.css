@@ -1,0 +1,80 @@
+body {
+    background: #ecf3f3;
+}
+
+header
+{
+	font-family:David;
+	
+}
+
+.title {
+		text-align:center;
+	
+	
+}
+
+.h2_title{
+	
+	color:red;
+	
+}
+
+#sect
+{
+	text-align:center;
+	max-width: 500px;
+	margin: auto;
+	border: 3px solid #73AD21;
+	box-sizing: border-box;
+	width: auto;
+	border-style: groove;
+	border-radius: 20px;
+	font-family:David;
+	background: #d4dada;
+
+	
+}
+#text, #select_abotbk,#email,#datetime {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#select_abotbk:hover{
+	
+	  background-color: #45a049;
+
+	
+}
+.button{
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.submit{
+		background-color: #4CAF50;
+		color:black;
+		font-weight:bold;
+}
+
+.reset{
+		background-color: red;
+		color:black;
+		font-weight:bold;
+
+	
+}
+
+.button:hover {
+  background-color: brown;
+
+
+}
